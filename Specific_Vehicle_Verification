@@ -1,4 +1,4 @@
-// See if student is at the correct station (bus,car, or pedestrian) 
+// See if Student is at the correct station (bus,car,or pedestrian) 
 // based on student's passive RFID Student ID
 #include<iostream>
 
@@ -56,6 +56,7 @@ int read_barcode()
     
     return input;
 }
+
 //Function to open the gate to access the specific vehicle
 void opengate()
 {
